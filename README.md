@@ -66,7 +66,8 @@ crw-rw---- 1 root dialout 188, 0 Jan 30 21:42 /dev/ttyUSB0
 	- Changed Timezone to Europe/Dublin
 	- No need to change device as mine enumerated as /dev/ttyUSB0 too
 - Rootless container
-	- Followed instructions from here to make the container use my userid rather than root for security reasons
+	- Followed instructions from here to make the container use my userid rather than root for security reasons:
+		- https://www.zigbee2mqtt.io/guide/installation/02_docker.html#running-the-container
 	- check my user id:
 		```
 		david@zigbee2mqtt:~/server/zigbee_server_setup $ id
