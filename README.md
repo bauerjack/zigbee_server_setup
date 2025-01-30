@@ -26,7 +26,15 @@ Records details of how I setup my zigbee2mqtt server on my Raspberry Pi 4 Model 
 - Link: https://www.zigbee2mqtt.io/guide/getting-started/
 
 # Install Dependences
-server/install_dependencies.sh
+- Reference
+	- https://forums.raspberrypi.com/viewtopic.php?t=320769
+	```
+	sudo apt update
+	sudo apt install docker.io
+	```
+	- Quote: It may not be the latest version but it works.
+	- Create script for dependencies	
+		- `server/install_dependencies.sh`
 
 # Setup & Test Adapter 
 
