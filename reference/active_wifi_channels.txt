@@ -1,0 +1,119 @@
+                    Channel:6
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=70/70  Signal level=-29 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+--
+                    Channel:6
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=70/70  Signal level=-30 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_2ghz_down"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+--
+                    Channel:6
+                    Frequency:2.437 GHz (Channel 6)
+                    Quality=70/70  Signal level=-30 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_2ghz"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+--
+                    Channel:36
+                    Frequency:5.18 GHz (Channel 36)
+                    Quality=34/70  Signal level=-76 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_5ghz_tp"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+--
+                    Channel:44
+                    Frequency:5.22 GHz (Channel 44)
+                    Quality=33/70  Signal level=-77 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_5ghz_up"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+--
+                    Channel:44
+                    Frequency:5.22 GHz (Channel 44)
+                    Quality=33/70  Signal level=-77 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_5ghz"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+--
+                    Channel:44
+                    Frequency:5.22 GHz (Channel 44)
+                    Quality=33/70  Signal level=-77 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+--
+                    Channel:48
+                    Frequency:5.24 GHz (Channel 48)
+                    Quality=70/70  Signal level=-39 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+--
+                    Channel:48
+                    Frequency:5.24 GHz (Channel 48)
+                    Quality=70/70  Signal level=-39 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_5ghz_down"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+--
+                    Channel:48
+                    Frequency:5.24 GHz (Channel 48)
+                    Quality=70/70  Signal level=-39 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_5ghz"
+                    Bit Rates:6 Mb/s; 9 Mb/s; 12 Mb/s; 18 Mb/s; 24 Mb/s
+                              36 Mb/s; 48 Mb/s; 54 Mb/s
+--
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=40/70  Signal level=-70 dBm  
+                    Encryption key:off
+                    ESSID:"ShellyPlus2PM-A0DD6C328D28"
+                    Bit Rates:5.5 Mb/s; 11 Mb/s; 1 Mb/s; 2 Mb/s; 6 Mb/s
+                              12 Mb/s; 24 Mb/s; 48 Mb/s
+--
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=38/70  Signal level=-72 dBm  
+                    Encryption key:off
+                    ESSID:"ShellyPlus2PM-D48AFC7EB434"
+                    Bit Rates:5.5 Mb/s; 11 Mb/s; 1 Mb/s; 2 Mb/s; 6 Mb/s
+                              12 Mb/s; 24 Mb/s; 48 Mb/s
+--
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=38/70  Signal level=-72 dBm  
+                    Encryption key:off
+                    ESSID:"Shelly1PMMiniG3-34B7DA8D8580"
+                    Bit Rates:5.5 Mb/s; 11 Mb/s; 1 Mb/s; 2 Mb/s; 6 Mb/s
+                              12 Mb/s; 24 Mb/s; 48 Mb/s
+--
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=52/70  Signal level=-58 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C_2ghz_up"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
+--
+                    Channel:11
+                    Frequency:2.462 GHz (Channel 11)
+                    Quality=54/70  Signal level=-56 dBm  
+                    Encryption key:on
+                    ESSID:"VMEE8816C"
+                    Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 9 Mb/s
+                              18 Mb/s; 36 Mb/s; 54 Mb/s
