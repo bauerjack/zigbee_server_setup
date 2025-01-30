@@ -2,6 +2,7 @@ version: '3.8'
 services:
     mqtt:
         image: eclipse-mosquitto:2.0
+        user: "1000:1000" # host system user david (UID:GID)
         restart: unless-stopped
         volumes:
             - './mosquitto-data:/mosquitto'
@@ -14,6 +15,9 @@ services:
         container_name: zigbee2mqtt
         restart: unless-stopped
         image: koenkk/zigbee2mqtt
+        user: "1000:1000" # host system user david (UID:GID)
+        group_add:
+            - "20"        # Adding the dialout group as this has permission to the zigbee adapter
         volumes:
             - ./zigbee2mqtt-data:/app/data
             - /run/udev:/run/udev:ro
