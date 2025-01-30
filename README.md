@@ -59,7 +59,20 @@ crw-rw---- 1 root dialout 188, 0 Jan 30 21:42 /dev/ttyUSB0
   
 ```
 
-# Docker Config?
+# Docker Config
+- Took default config from these instructions:
+	- TODO
+- Minor Changes
+	- Changed Timezone to Europe/Dublin
+	- No need to change device as mine enumerated as /dev/ttyUSB0 too
+- Rootless container
+	- Followed instructions from here to make the container use my userid rather than root for security reasons
+	- check my user id:
+		```
+		david@zigbee2mqtt:~/server/zigbee_server_setup $ id
+		uid=1000(david) gid=1000(david) groups=1000(david),4(adm),20(dialout),24(cdrom),27(sudo),29(audio),44(video),46(plugdev),60(games),100(users),102(input),105(render),110(netdev),115(lpadmin),993(gpio),994(i2c),995(spi)
+		```
+	- adding user and group (dialout (group 20)) to the docker compose config
 
 
 
