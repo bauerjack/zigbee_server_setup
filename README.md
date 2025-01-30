@@ -75,6 +75,22 @@ crw-rw---- 1 root dialout 188, 0 Jan 30 21:42 /dev/ttyUSB0
 		```
 	- adding user and group (dialout (group 20)) to the docker compose config
 
+# Zigbee config
+- Created `zigbee2mqtt-data/configuration.yaml` based on example from https://www.zigbee2mqtt.io/guide/getting-started/#_2-setup-and-start-zigbee2mqtt
+- Confirmed my adapter "Sonoff Zigbee 3.0 USB Dongle Plus" (ZBDongle-P) uses "Z-Stack"
+	- Reference: https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-p/
+	- Chipset: CC2652P
+	- USB-Serial Chip: CP2102N
+- Biggest Challenge is selecting the channel
+	- Unfortunately once you pair devices on a given channel you cannot change it :-( without repairing
+		- Reference: https://www.zigbee2mqtt.io/guide/faq/
+	- Created `reference/wifi_channel_explorer.sh` to find what Wifi Channels I am using by scanning with the pi itself
+		- Conclusion: I'm going with Zigbee Channel 14 for the moment. Wifi 2.4Ghz on 6 and 11; wifi channel 1 doesn't seem active. 
+			- That would allow Zigbee channels 11-14 to work
+			- I went with 14 as there was a suggestion that IKEA might default to 11 if it was free.
+		- Note: Zigbee channel numbers and wifi Channel numbers are different. See picture here:
+			- https://community.home-assistant.io/t/ikea-devices-only-pairing-on-channel-15-when-very-close-to-usb/544843/3
+	
 
 
 
