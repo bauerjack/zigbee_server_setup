@@ -30,7 +30,8 @@ server/install_dependencies.sh
 
 # Setup & Test Adapter 
 
-`dmesg output after installing adapter  
+``
+dmesg output after installing adapter  
   
 [ 5108.869131] usb 1-1.1: new full-speed USB device number 3 using xhci_hcd  
 [ 5108.976749] usb 1-1.1: New USB device found, idVendor=10c4, idProduct=ea60, bcdDevice= 1.00  
@@ -47,7 +48,8 @@ server/install_dependencies.sh
   
 david@zigbee2mqtt:~/server $ ls -la /dev/ttyUSB0  
 crw-rw---- 1 root dialout 188, 0 Jan 30 21:42 /dev/ttyUSB0  
-  `
+  
+``
 
 # Docker Config?
 
